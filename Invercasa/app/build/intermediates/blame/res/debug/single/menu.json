@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

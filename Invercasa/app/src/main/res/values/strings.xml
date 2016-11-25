@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Invercasa</string>
+    <!--Welcome-->
+    <string name="prompt_dot">•</string>
+    <string name="prompt_next">SIGUIENTE</string>
+    <string name="prompt_skip">OMITIR</string>
+    <string name="prompt_start">LISTO</string>
+    <string name="slide_1_title">Invercasa</string>
+    <string name="slide_1_desc">Desliza hacia la izquierda para empezar.</string>
+    <string name="slide_2_title">Libera tus ideas</string>
+    <string name="slide_2_desc">Estás en el lugar perfecto para encontrar lo que buscas.</string>
+    <string name="slide_3_title">Te cuidamos, siempre</string>
+    <string name="slide_3_desc">Tu dinero está seguro con nuestro Programa de Protección al Comprador hasta que estés feliz con tu compra.</string>
+    <!--Login-->
+    <string name="prompt_email">Correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_forgot_password">Olvidé mi contraseña</string>
+    <string name="prompt_or">\u0008o\u0008</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_up">Registrarse</string>
+    <string name="action_remember">Recordar contraseña</string>
+    <string name="error_incorrect_email">Correo electrónico incorrecto</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="test">¡Funciona!</string>
+    <!--Sign up-->
+    <string name="prompt_dni">DNI</string>
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_last_name">Apellidos</string>
+    <string name="prompt_address">Dirección</string>
+    <string name="prompt_phone">Teléfono</string>
+    <string name="prompt_confirm_password">Confirmar contraseña</string>
+    <string name="prompt_agree">Acepto los\u0008</string>
+    <string name="prompt_terms">Términos y condiciones</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="error_invalid_email">Correo electrónico no válido</string>
+    <string name="error_invalid_password">Contraseña demasiado corta</string>
+    <!--Main-->
+    <string name="action_search">Buscar</string>
+    <string name="action_filter">Filtrar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <!--Navigation drawer-->
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+    <string name="nav_group_catalog">Catálogo</string>
+    <string name="nav_all">Todos los productos</string>
+    <string name="nav_last">Últimos productos</string>
+    <string name="nav_featured">Destacados</string>
+    <string name="nav_favourite">Favoritos</string>
+    <string name="nav_recent">Recientes</string>
+    <string name="nav_group_other">Otros</string>
+    <string name="nav_help">Términos y condiciones</string>
+    <string name="nav_about">Información sobre Invercasa</string>
+    <string-array name="nav_item_activity_titles">
+        <item>@string/nav_all</item>
+        <item>@string/nav_last</item>
+        <item>@string/nav_featured</item>
+        <item>@string/nav_favourite</item>
+        <item>@string/nav_recent</item>
+    </string-array>
+    <!--Other-->
+    <string name="prompt_yes">Sí</string>
+    <string name="prompt_no">No</string>
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="title_activity_sign_up">@string/action_sign_up</string>
+    <string name="title_activity_settings">@string/action_settings</string>
+    <string name="title_activity_terms">@string/nav_help</string>
+    <string name="title_activity_about">@string/nav_about</string>
+    <string name="prompt_confirm_logout">¿Estás seguro de querer cerrar sesión?</string>
+    <string name="detail_terms">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et sem posuere, tristique dui et, iaculis ante. Vivamus ullamcorper nisi vel aliquam rutrum. Vivamus faucibus lorem nec libero fringilla, non malesuada risus convallis. Aenean eget porta massa, eget rhoncus nisi. Nam tempor metus mi. Sed lobortis finibus metus ut blandit. Nam fringilla sit amet leo non accumsan. Proin mollis euismod hendrerit. Proin sed nibh erat. Vivamus accumsan urna quis est semper, ac aliquet nibh pretium. Proin malesuada turpis non facilisis bibendum. Mauris lorem augue, maximus vel accumsan id, rhoncus id justo. Sed commodo metus sit amet diam efficitur luctus.
+
+        Cras convallis eu quam eu maximus. Sed non rhoncus nibh. Quisque elementum bibendum turpis. Sed id rutrum nulla. In nisl ipsum, porttitor non ligula ut, tincidunt consectetur erat. Vestibulum mollis justo libero, a sodales lectus feugiat quis. Nulla facilisi. Sed eu mi elit. Integer ac nisl augue. Donec quam elit, elementum ac egestas eu, egestas eget eros.
+
+        Curabitur malesuada tincidunt malesuada. Proin cursus convallis ante non consequat. Aenean iaculis velit et ante venenatis hendrerit. Sed non scelerisque lectus. Quisque convallis velit pellentesque turpis hendrerit convallis. Duis sodales sollicitudin enim, vel bibendum ligula aliquam ac. Fusce egestas magna quis metus fringilla dictum. Ut vitae nulla arcu. Pellentesque odio dui, vestibulum nec mollis nec, pulvinar eget felis. Vivamus ornare diam ut dolor finibus fringilla ut egestas libero. Donec id ligula dapibus, ultricies dui ut, hendrerit felis. Vestibulum eget felis aliquet, hendrerit magna nec, vestibulum mauris.
+
+        Pellentesque ac egestas lectus. In at venenatis sem, ut pellentesque elit. Sed vel orci sit amet magna gravida auctor. Integer aliquet, risus a ullamcorper tempus, ligula mauris euismod eros, nec aliquet arcu ante quis mi. Cras efficitur tortor et nulla pharetra, vel scelerisque est congue. Vestibulum lectus magna, semper eget luctus non, facilisis ac ex. Suspendisse dapibus tortor eget velit consectetur tristique. Cras tempor ante et lacus mattis, quis blandit libero viverra. Aenean quis venenatis dolor, vitae consectetur nibh.
+
+        Curabitur enim purus, viverra vitae venenatis vel, consequat nec ex. Etiam lacinia risus tincidunt, mattis velit in, fringilla magna. Quisque vel viverra nulla, at elementum sapien. Sed ac posuere nisi. In non fermentum orci. Pellentesque risus est, hendrerit a convallis a, gravida ac nibh. Duis suscipit orci nec libero semper, et finibus mauris hendrerit. Nunc dapibus, nibh sit amet consequat consectetur, elit sem molestie enim, eget pharetra dolor est et lacus.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

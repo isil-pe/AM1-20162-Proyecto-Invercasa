@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/nav_group_catalog">
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_nav_all"
+                android:title="@string/nav_all"/>
+            <item
+                android:id="@+id/nav_last"
+                android:icon="@drawable/ic_nav_last"
+                android:title="@string/nav_last"/>
+            <item
+                android:id="@+id/nav_featured"
+                android:icon="@drawable/ic_nav_featured"
+                android:title="@string/nav_featured"/>
+            <item
+                android:id="@+id/nav_favourite"
+                android:icon="@drawable/ic_nav_favourite"
+                android:title="@string/nav_favourite"/>
+            <item
+                android:id="@+id/nav_recent"
+                android:icon="@drawable/ic_nav_recent"
+                android:title="@string/nav_recent"/>
+        </group>
+    </item>
+    <item android:title="@string/nav_group_other">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:title="@string/nav_help"/>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/nav_about"/>
+        </menu>
+    </item>
+</menu>
