@@ -16,6 +16,7 @@ public class UserRepository {
         users.add(new UserEntity(1, "", "Giovanni", "Vilela", "", "", "giovanni.vilela@outlook.com", "123456"));
         users.add(new UserEntity(2, "", "Daniel", "Ponce", "", "", "daniel31_5@hotmail.com", "123456"));
         users.add(new UserEntity(3, "", "Axel", "Rebollar", "", "", "axel_r_18@hotmail.com", "123456"));
+        users.add(new UserEntity(4, "", "Mauricio", "Navarro", "", "", "maurinava_25@hotmail.com", "123456"));
     }
 
     public void add(UserEntity User) {

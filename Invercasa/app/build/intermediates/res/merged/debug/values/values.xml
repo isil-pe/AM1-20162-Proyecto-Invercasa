@@ -453,7 +453,6 @@
     <string name="nav_recent">Recientes</string>
     <string name="prompt_address">Dirección</string>
     <string name="prompt_agree">Acepto los\u0008</string>
-    <string name="prompt_company_name">Razón social</string>
     <string name="prompt_confirm_logout">¿Estás seguro de querer cerrar sesión?</string>
     <string name="prompt_confirm_password">Confirmar contraseña</string>
     <string name="prompt_dni">DNI</string>
@@ -467,7 +466,6 @@
     <string name="prompt_or">\u0008o\u0008</string>
     <string name="prompt_password">Contraseña</string>
     <string name="prompt_phone">Teléfono</string>
-    <string name="prompt_ruc">RUC</string>
     <string name="prompt_skip">OMITIR</string>
     <string name="prompt_start">LISTO</string>
     <string name="prompt_terms">Términos y condiciones</string>

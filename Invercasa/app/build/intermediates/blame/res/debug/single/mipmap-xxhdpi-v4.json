@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

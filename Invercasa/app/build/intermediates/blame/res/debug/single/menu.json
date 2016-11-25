@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",

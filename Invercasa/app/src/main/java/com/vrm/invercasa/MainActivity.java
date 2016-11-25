@@ -23,8 +23,9 @@ import android.widget.TextView;
 
 import com.vrm.invercasa.fragments.ProductFragment;
 import com.vrm.invercasa.fragments.TestFragment;
+import com.vrm.invercasa.listeners.OnMainListener;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OnMainListener{
     private NavigationView navigationView;
     private DrawerLayout drawer;
     private View navHeader;

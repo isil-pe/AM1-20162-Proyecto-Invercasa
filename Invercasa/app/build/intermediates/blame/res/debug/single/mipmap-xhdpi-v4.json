@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     }
 ]

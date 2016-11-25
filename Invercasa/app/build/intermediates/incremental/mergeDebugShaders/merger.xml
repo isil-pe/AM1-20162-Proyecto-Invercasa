@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="D:\VRM\Drive\Proyectos\AndroidStudio\Invercasa\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\VRM\Drive\Proyectos\AndroidStudio\Invercasa\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Invercasa\repo\AM1-20162-Proyecto-Invercasa\Invercasa\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Invercasa\repo\AM1-20162-Proyecto-Invercasa\Invercasa\app\src\debug\shaders"/></dataSet></merger>

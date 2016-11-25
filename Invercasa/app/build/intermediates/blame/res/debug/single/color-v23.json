@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
