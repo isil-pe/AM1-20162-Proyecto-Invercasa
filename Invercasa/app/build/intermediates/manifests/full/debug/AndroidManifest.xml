@@ -32,6 +32,11 @@
         <activity
             android:name="com.vrm.invercasa.TermsActivity"
             android:label="@string/title_activity_terms" />
+        <activity
+            android:name="com.vrm.invercasa.EditProfileActivity"
+            android:label="@string/title_activity_profile" />
+        <activity android:name="com.vrm.invercasa.AboutActivity" />
+        <activity android:name="com.vrm.invercasa.ProductDetailActivity" />
     </application>
 
 </manifest>

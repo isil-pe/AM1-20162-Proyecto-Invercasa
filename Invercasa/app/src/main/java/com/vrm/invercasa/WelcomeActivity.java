@@ -33,7 +33,7 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         prefManager = new PrefManager(this);
         if (!prefManager.isFirstTime()) {
-            launchHomeScreen();
+            gotoLogin();
             finish();
         }
         if (Build.VERSION.SDK_INT >= 21)
@@ -43,17 +43,17 @@ public class WelcomeActivity extends AppCompatActivity {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                launchHomeScreen();
+                gotoLogin();
             }
         });
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 int current = viewPager.getCurrentItem() + 1;
-                if (current < layouts.length)
+                if (viewPager.getCurrentItem() + 1 < layouts.length)
                     viewPager.setCurrentItem(current);
                 else
-                    launchHomeScreen();
+                    gotoLogin();
             }
         });
     }
@@ -90,7 +90,7 @@ public class WelcomeActivity extends AppCompatActivity {
         dots[currentPage].setTextColor(colorsActive[currentPage]);
     }
 
-    private void launchHomeScreen() {
+    private void gotoLogin() {
         prefManager.setFirstTime(false);
         startActivity(new Intent(WelcomeActivity.this, LoginActivity.class));
         finish();
@@ -102,7 +102,7 @@ public class WelcomeActivity extends AppCompatActivity {
         public void onPageSelected(int position) {
             addBottomDots(position);
             if (position == layouts.length - 1) {
-                btnNext.setText(getString(R.string.prompt_start));
+                btnNext.setText(getString(R.string.prompt_log_in));
                 btnSkip.setVisibility(View.GONE);
             } else {
                 btnNext.setText(getString(R.string.prompt_next));

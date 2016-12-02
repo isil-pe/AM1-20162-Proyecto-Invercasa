@@ -10,18 +10,6 @@
                 android:id="@+id/nav_last"
                 android:icon="@drawable/ic_nav_last"
                 android:title="@string/nav_last"/>
-            <item
-                android:id="@+id/nav_featured"
-                android:icon="@drawable/ic_nav_featured"
-                android:title="@string/nav_featured"/>
-            <item
-                android:id="@+id/nav_favourite"
-                android:icon="@drawable/ic_nav_favourite"
-                android:title="@string/nav_favourite"/>
-            <item
-                android:id="@+id/nav_recent"
-                android:icon="@drawable/ic_nav_recent"
-                android:title="@string/nav_recent"/>
         </group>
     </item>
     <item android:title="@string/nav_group_other">
@@ -32,6 +20,9 @@
             <item
                 android:id="@+id/nav_about"
                 android:title="@string/nav_about"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="@string/action_logout"/>
         </menu>
     </item>
 </menu>

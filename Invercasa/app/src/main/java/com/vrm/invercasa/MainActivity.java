@@ -19,27 +19,28 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.vrm.invercasa.fragments.ProductFragment;
-import com.vrm.invercasa.fragments.TestFragment;
+import com.vrm.invercasa.fragments.ExtraFragment;
 import com.vrm.invercasa.listeners.OnMainListener;
+import com.vrm.invercasa.model.UserEntity;
+import com.vrm.invercasa.utils.PrefManager;
 
 public class MainActivity extends AppCompatActivity implements OnMainListener{
+    private UserEntity user;
     private NavigationView navigationView;
     private DrawerLayout drawer;
     private View navHeader;
-    private TextView txtName, txtEmail;
+    private TextView txtName, txtEmail, txtCaps;
     private Toolbar toolbar;
+    private LinearLayout profile;
     public static int navItemIndex = 0;
-    private static final String TAG_ALL = "all";
-    private static final String TAG_LAST = "last";
-    private static final String TAG_FEATURED = "featured";
-    private static final String TAG_FAVOURITE = "favourite";
-    private static final String TAG_RECENT = "recent";
-    public static String CURRENT_TAG = TAG_ALL ;
+    public static String CURRENT_TAG = "0" ;
     private String[] activityTitles;
     private Handler handler;
+    private PrefManager prefManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,21 +52,41 @@ public class MainActivity extends AppCompatActivity implements OnMainListener{
         drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         navigationView = (NavigationView) findViewById(R.id.nav_view);
         navHeader = navigationView.getHeaderView(0);
-        txtName = (TextView)navHeader.findViewById(R.id.name);
-        txtEmail = (TextView)navHeader.findViewById(R.id.email);
+        profile = (LinearLayout) navHeader.findViewById(R.id.profile);
+        txtName = (TextView) navHeader.findViewById(R.id.textViewName);
+        txtEmail = (TextView) navHeader.findViewById(R.id.textViewEmail);
+        txtCaps = (TextView) navHeader.findViewById(R.id.textViewCaps);
         activityTitles = getResources().getStringArray(R.array.nav_item_activity_titles);
-        loadNavHeader();
-        setUpNavigationView();
+        prefManager = new PrefManager(this);
+        ui();
         if (savedInstanceState == null) {
-            navItemIndex = 0;
-            CURRENT_TAG = TAG_ALL;
+            navItemIndex = 1;
+            CURRENT_TAG = "1";
             loadHomeFragment();
         }
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, EditProfileActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("USER", user);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
+    }
+
+    private void ui() {
+        loadNavHeader();
+        setUpNavigationView();
     }
 
     private void loadNavHeader() {
-        txtName.setText(getIntent().getStringExtra("fullname"));
-        txtEmail.setText(getIntent().getStringExtra("email"));
+        user = (UserEntity) getIntent().getExtras().getSerializable("USER");
+        txtName.setText(user.getFullName());
+        String email = user.getEmail();
+        txtEmail.setText(email.substring(0, email.indexOf("@") + 4) + "...");
+        txtCaps.setText("" + user.getName().charAt(0) + user.getLastName().charAt(0));
     }
 
     private void loadHomeFragment() {
@@ -94,15 +115,9 @@ public class MainActivity extends AppCompatActivity implements OnMainListener{
     private Fragment getHomeFragment() {
         switch (navItemIndex) {
             case 0:
-                return new TestFragment();
-            case 1:
                 return new ProductFragment();
-            case 2:
-                return null;
-            case 3:
-                return null;
-            case 4:
-                return null;
+            case 1:
+                return new ExtraFragment();
         }
         return null;
     }
@@ -122,30 +137,22 @@ public class MainActivity extends AppCompatActivity implements OnMainListener{
                 switch (menuItem.getItemId()) {
                     case R.id.nav_all:
                         navItemIndex = 0;
-                        CURRENT_TAG = TAG_ALL;
+                        CURRENT_TAG = "0";
                         break;
                     case R.id.nav_last:
                         navItemIndex = 1;
-                        CURRENT_TAG = TAG_LAST;
-                        break;
-                    case R.id.nav_featured:
-                        navItemIndex = 2;
-                        CURRENT_TAG = TAG_FEATURED;
-                        break;
-                    case R.id.nav_favourite:
-                        navItemIndex = 3;
-                        CURRENT_TAG = TAG_FAVOURITE;
-                        break;
-                    case R.id.nav_recent:
-                        navItemIndex = 4;
-                        CURRENT_TAG = TAG_RECENT;
+                        CURRENT_TAG = "1";
                         break;
                     case R.id.nav_help:
                         startActivity(new Intent(MainActivity.this, TermsActivity.class));
                         drawer.closeDrawers();
                         return true;
                     case R.id.nav_about:
-                        startActivity(new Intent(MainActivity.this, SignUpActivity.class));
+                        startActivity(new Intent(MainActivity.this, AboutActivity.class));
+                        drawer.closeDrawers();
+                        return true;
+                    case R.id.nav_logout:
+                        logout();
                         drawer.closeDrawers();
                         return true;
                     default:
@@ -176,9 +183,10 @@ public class MainActivity extends AppCompatActivity implements OnMainListener{
             drawer.closeDrawers();
             return;
         }
-        else
-            logout();
-        //super.onBackPressed();
+        else {
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+            finish();
+        }
     }
 
     @Override
@@ -190,26 +198,18 @@ public class MainActivity extends AppCompatActivity implements OnMainListener{
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_logout) {
-            logout();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    public void logout(){
-        AlertDialog.Builder alert = new AlertDialog.Builder(this);
-        alert.setMessage(getString(R.string.prompt_confirm_logout));
-        alert.setPositiveButton(getString(R.string.prompt_yes), new DialogInterface.OnClickListener() {
-            public void onClick(DialogInterface dialog, int id) {
+    private void logout() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(getString(R.string.action_logout));
+        builder.setMessage(getString(R.string.prompt_confirm_logout));
+        builder.setPositiveButton(R.string.prompt_yes, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                prefManager.setLoggedUser(-1);
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
                 finish();
             }
         });
-        alert.setNegativeButton(getString(R.string.prompt_no), null);
-        alert.setCancelable(false);
-        alert.show();
+        builder.setNegativeButton(R.string.prompt_no, null);
+        builder.show();
     }
 }

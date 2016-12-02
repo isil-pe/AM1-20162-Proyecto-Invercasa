@@ -52,14 +52,6 @@
                 android:inputType="textPassword"
                 android:imeOptions="actionDone"/>
         </android.support.design.widget.TextInputLayout>
-        <CheckBox
-            android:id="@+id/checkboxRemember"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/action_remember"
-            android:textColor="@color/colorTextPrimaryDark"
-            android:buttonTint="@color/colorAccent"
-            android:layout_gravity="left"/>
         <Button
             android:id="@+id/buttonSignIn"
             android:layout_width="match_parent"

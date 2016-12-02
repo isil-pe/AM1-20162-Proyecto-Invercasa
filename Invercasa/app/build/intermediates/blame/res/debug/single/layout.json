@@ -48,12 +48,12 @@
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_test.xml",
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\layout\\fragment_test.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
@@ -68,28 +68,28 @@
         "source": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item.xml"
-    },
-    {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_terms.xml",
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\layout\\activity_terms.xml"
+    },
+    {
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
@@ -128,20 +128,20 @@
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\src\\main\\res\\layout\\activity_welcome.xml"
     },
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
@@ -156,12 +156,12 @@
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
         "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
@@ -248,12 +248,12 @@
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
@@ -420,6 +420,10 @@
         "source": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
@@ -508,6 +512,10 @@
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
         "merged": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\src\\main\\res\\layout\\content_main.xml"
     },
@@ -530,6 +538,10 @@
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_extra.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\fragment_extra.xml"
     },
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -600,8 +612,16 @@
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_product_detail.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_product_detail.xml"
+    },
+    {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_profile.xml",
+        "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
     },
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
@@ -662,6 +682,10 @@
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_profile.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_edit_profile.xml"
     },
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
@@ -798,10 +822,6 @@
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_test.xml",
-        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\fragment_test.xml"
     },
     {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
@@ -972,6 +992,10 @@
         "source": "C:\\Invercasa\\repo\\AM1-20162-Proyecto-Invercasa\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_terms.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\activity_terms.xml"
+    },
+    {
         "merged": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "D:\\VRM\\Drive\\Proyectos\\AndroidStudio\\Invercasa\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
@@ -1014,6 +1038,14 @@
     {
         "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
         "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\row_product.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\row_product.xml"
+    },
+    {
+        "merged": "C:\\Aplicaciones\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_product.xml",
+        "source": "C:\\Aplicaciones\\Invercasa\\app\\src\\main\\res\\layout\\fragment_product.xml"
     },
     {
         "merged": "D:\\AndroidStudio-Projects\\Invercasa\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
